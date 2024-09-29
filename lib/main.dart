@@ -11,10 +11,11 @@ class DiceRoll extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Dice Roll',
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blueGrey,
+          backgroundColor: const Color.fromARGB(255, 166, 184, 193),
           centerTitle: true,
           title: const Text(
             'Dice Roll',
